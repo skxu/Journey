@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>~</title>
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <style id="keyframes">
+        @-moz-keyframes flicker {
+          to {
+            color:rgb(80, 180, 130);
+          }
+        }
+        @-webkit-keyframes flicker {
+          to {
+            color:rgb(52, 150, 101);
+          }
+        }
+        @keyframes flicker {
+          to {
+            color:rgb(88, 137, 113);
+          }
+        }
+        </style>
+    </head>
+    <body>
+        <div id="title">Welcome</div>
+        <div id="map"></div>
+        
+        <div class="text" id="line1"></div>
+        <div class="text" id="line2"></div>
+        <div class="text" id="line3"></div>
+        <script src="thirdparty/theater.min.js"></script>
+        <script src="src/theater.js"></script>
+        <script type="text/javascript" src="src/map.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA3TudlAwv5hX0C638NDje_7POob515_gM&callback=initMap"></script>
+    </body>
+</html>
